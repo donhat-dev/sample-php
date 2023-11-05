@@ -5,6 +5,7 @@
 
 header('Content-Type: text/plain');
 echo "hehehehehe";
+echo "h";
 $text = "Set a message by adding ?message=<message here> to the URL";
 if(isset($_GET['message']) && $_GET['message'] != '') {
 	$text = htmlspecialchars($_GET['message']);
